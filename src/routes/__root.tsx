@@ -76,10 +76,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Ghaya Consultoria — Conectando pessoas, talentos e propósito" },
       { name: "description", content: "Consultoria humanizada em recrutamento estratégico, desenvolvimento humano, educação corporativa e fortalecimento familiar." },
       { name: "author", content: "Ghaya Consultoria" },
-      { property: "og:title", content: "Ghaya Consultoria" },
-      { property: "og:description", content: "Transformação humana e organizacional por meio de estratégia, educação e desenvolvimento emocional." },
+      { property: "og:title", content: "Ghaya Consultoria — Conectando pessoas, talentos e propósito" },
+      { property: "og:description", content: "Consultoria humanizada em recrutamento estratégico, desenvolvimento humano, educação corporativa e fortalecimento familiar." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Ghaya Consultoria — Conectando pessoas, talentos e propósito" },
+      { name: "twitter:description", content: "Consultoria humanizada em recrutamento estratégico, desenvolvimento humano, educação corporativa e fortalecimento familiar." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aff93130-8a4c-43a0-991e-5f3776e3f70b/id-preview-59101139--97fce8b2-1219-4a11-afa1-d127098b10f4.lovable.app-1779716713527.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aff93130-8a4c-43a0-991e-5f3776e3f70b/id-preview-59101139--97fce8b2-1219-4a11-afa1-d127098b10f4.lovable.app-1779716713527.png" },
     ],
     links: [
       {
