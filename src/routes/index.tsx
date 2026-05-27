@@ -51,7 +51,7 @@ function Index() {
               Promovemos transformação humana e organizacional por meio de estratégias inteligentes, educação, desenvolvimento emocional e fortalecimento das relações.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
-              <Link to="/contato" className="inline-flex items-center gap-2 rounded-full bg-navy-deep px-7 py-3.5 text-sm font-medium text-gold-soft shadow-gold transition-smooth hover:-translate-y-0.5 hover:bg-navy">
+              <Link to="/contato" className="inline-flex items-center gap-2 rounded-full bg-gradient-gold px-7 py-3.5 text-sm font-medium text-gold-soft shadow-gold transition-smooth hover:-translate-y-0.5">
                 Iniciar uma conversa <ArrowRight size={16} />
               </Link>
               <Link to="/servicos" className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/30 px-7 py-3.5 text-sm text-primary-foreground transition-smooth hover:bg-primary-foreground/10">
