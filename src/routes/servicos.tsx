@@ -102,7 +102,7 @@ function ServicosPage() {
       <section className="bg-navy text-primary-foreground py-20">
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h2 className="font-display text-4xl md:text-5xl">Vamos desenhar a solução ideal para você?</h2>
-          <Link to="/contato" className="mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-gold px-8 py-4 text-sm font-medium text-navy-deep shadow-gold transition-smooth hover:-translate-y-0.5">
+          <Link to="/contato" className="mt-8 inline-flex items-center gap-2 rounded-full border border-gold bg-navy-deep px-8 py-4 text-sm font-medium text-gold shadow-gold transition-smooth hover:-translate-y-0.5 hover:bg-navy">
             Solicitar uma proposta <ArrowRight size={16} />
           </Link>
         </div>
