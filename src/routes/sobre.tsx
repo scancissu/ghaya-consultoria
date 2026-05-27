@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import aboutImg from "@/assets/about.jpg";
-import { Heart, Eye, Compass } from "lucide-react";
+import { Heart, Eye, Compass, Download } from "lucide-react";
 
 export const Route = createFileRoute("/sobre")({
   head: () => ({
@@ -36,6 +36,14 @@ function SobrePage() {
           <p className="mt-6 max-w-2xl text-lg text-primary-foreground/80">
             Unimos desenvolvimento profissional, saúde mental, educação e fortalecimento das relações humanas para criar ambientes mais produtivos, saudáveis e sustentáveis.
           </p>
+          <a
+            href="/ghaya-documento-estrategico.pdf"
+            download
+            className="mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-gold px-7 py-3 text-sm font-medium text-navy-deep shadow-card transition-smooth hover:opacity-90"
+          >
+            <Download size={18} />
+            Baixar Documento Estratégico (PDF)
+          </a>
         </div>
       </section>
 
